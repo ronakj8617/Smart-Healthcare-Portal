@@ -12,10 +12,15 @@ The **Smart Healthcare Portal** is a web-based application designed to streamlin
 
 ## Technologies Used
 
-- **Frontend**: React.js
-- **Backend**: SpringBoot
-- **Database**: Oracle DB
-- **Authentication**: JSON Web Tokens (JWT)
+```
+- Spring Boot 2.2.2
+- REST API (get, post, put, delete, patch)
+- ModelMapper, DTO
+- JPA, Hibernate
+- React
+- Bootstrap 4
+- Oracle Database 11g
+```
 
 ## Installation
 
@@ -23,4 +28,26 @@ The **Smart Healthcare Portal** is a web-based application designed to streamlin
 
 ```bash
 git clone https://github.com/ronakj8617/Smart-Healthcare-Portal.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd Smart-Healthcare-Portal
+```
+
+### Start backend services
+
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+### Start frontend application
+
+```bash
+cd frontend
+npm install
+npm start
+
 ```
