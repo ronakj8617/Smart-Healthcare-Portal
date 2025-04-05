@@ -36,14 +36,14 @@ git clone https://github.com/ronakj8617/Smart-Healthcare-Portal.git
 cd Smart-Healthcare-Portal
 ```
 
-### Start backend services
+### 3. Start backend services
 
 ```bash
 cd backend
 mvn spring-boot:run
 ```
 
-### Start frontend application
+### 4. Start frontend application
 
 ```bash
 cd frontend
